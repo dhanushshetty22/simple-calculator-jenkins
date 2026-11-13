@@ -32,7 +32,7 @@ pipeline {
 
     post {
         success {
-            echo '✅ CI Pipeline completed flawlessly! Code stability confirmed.'
+            echo '✅ CI Pipeline is completed flawlessly! Code stability confirmed.'
         }
         failure {
             echo '❌ CI Pipeline is broken now. Check console logs for build failures or breaking test regressions.'
