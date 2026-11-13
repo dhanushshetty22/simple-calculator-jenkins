@@ -4,6 +4,7 @@ pipeline {
     tools{
         jdk 'ZDK 25'
         maven 'Maven-3.10'
+    }
 
     stages {
         stage('SCM Synchronization') {
